@@ -1,73 +1,72 @@
-
 public class Product {
-	private int Id;
-	private String name;
-	private double unitPrice;
-	private String detail;
-	private double discount;
+    private int Id;
+    private String name;
+    private double unitPrice;
+    private String detail;
+    private double discount;
 
-	public int getId() {
-		return Id;
-	}
-
-
-	public void setId(int id) {
-		Id = id;
-	}
+    public int getId() {
+        return Id;
+    }
 
 
-	public String getName() {
-		return name;
-	}
+    public void setId(int id) {
+        Id = id;
+    }
 
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public String getName() {
+        return name;
+    }
 
 
-	public double getUnitPrice() {
-		return unitPrice;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
 
-	public void setUnitPrice(double unitPrice) {
-		this.unitPrice = unitPrice;
-	}
+    public double getUnitPrice() {
+        return unitPrice;
+    }
 
 
-	public String getDetail() {
-		return detail;
-	}
+    public void setUnitPrice(double unitPrice) {
+        this.unitPrice = unitPrice;
+    }
 
 
-	public void setDetail(String detail) {
-		this.detail = detail;
-	}
+    public String getDetail() {
+        return detail;
+    }
 
 
-	public double getDiscount() {
-		return discount;
-	}
+    public void setDetail(String detail) {
+        this.detail = detail;
+    }
 
 
-	public void setDiscount(double discount) {
-		this.discount = discount;
-	}
+    public double getDiscount() {
+        return discount;
+    }
 
-	public Product() {
-		
-	}
-	
+
+    public void setDiscount(double discount) {
+        this.discount = discount;
+    }
+
+    public Product() {
+
+    }
+
     public Product (int Id, String name, double unitPrice,
         String detail, double discount) {
-    	super();
-    	this.Id = Id;
-    	this.name = name;
-    	this.unitPrice = unitPrice;
-    	this.detail = detail;
-    	this.discount = discount;
-		
-	}
-    
+        super();
+        this.Id = Id;
+        this.name = name;
+        this.unitPrice = unitPrice;
+        this.detail = detail;
+        this.discount = discount;
+
+    }
+
 }
