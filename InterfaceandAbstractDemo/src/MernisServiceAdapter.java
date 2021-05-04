@@ -1,5 +1,4 @@
 
-
 public class MernisServiceAdapter implements ICustomerCheckService {
 
 	@Override
