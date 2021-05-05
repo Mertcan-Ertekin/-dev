@@ -5,13 +5,13 @@ public class Main {
 		User user1 = new User();
 		user1.setId(1);
 		user1.setCustomerId(1);
-		user1.setEmail(" mrtcnertekin@gmail.com ");
+		user1.setEmail("mrtcnertekin@gmail.com ");
 		user1.setPassword("12345");
 		
 		User user2 = new User();
 		user2.setId(2);
 		user2.setCustomerId(2);
-		user2.setEmail(" mertcan4345@gmail.com ");
+		user2.setEmail("mertcan4345@gmail.com ");
 		user2.setPassword("54321");
 		
 		

@@ -9,7 +9,7 @@ public class MernisServiceAdapter implements ICustomerCheckService {
     public boolean checkIfRealPerson(Customer customer) {
         KPSPublicSoap soapClient = new KPSPublicSoapProxy();
 
-        boolean result = false;
+        boolean result = true;
         try {
             result = soapClient.TCKimlikNoDogrula(
                     Long.parseLong(customer.getNationalityId()),

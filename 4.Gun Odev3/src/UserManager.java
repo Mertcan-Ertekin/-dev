@@ -15,7 +15,12 @@ public class UserManager implements IUserService {
 
 	@Override
 	public void Uptade(User user) {
-		System.out.println(user.getEmail()+ " Bilgileriniz güncellendi. ");
+		System.out.println(user.getEmail()+ " Bilgileriniz güncellendi. Yeni bilgiler şunlardır. ");
+		System.out.println("------------------------");
+		System.out.println(user.getId());
+		System.out.println(user.getEmail());
+		System.out.println(user.getPassword());
+		System.out.println("------------------------");
 		
 	}
 

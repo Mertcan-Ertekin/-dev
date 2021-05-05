@@ -25,8 +25,9 @@ public class ShopManager implements IShopService{
 
 	@Override
 	public void Delete(Shop shop) {
+		System.out.println("---------------------");
 		System.out.println("Siparişiniz silinmiştir.");
-		System.out.println("---------");
+		System.out.println("---------------------");
 		System.out.println("Id: "+shop.getId());
 		System.out.println("Customer Id: "+shop.getCustomerId());
 		System.out.println("Game Id: "+shop.getGameId());
