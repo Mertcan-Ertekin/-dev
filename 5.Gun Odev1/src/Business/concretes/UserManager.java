@@ -10,6 +10,7 @@ import Entities.concretes.User;
 
 public class UserManager implements UserService {
 	
+	private User user;
 
 	private UserDao userDao;
 
@@ -37,10 +38,10 @@ public class UserManager implements UserService {
 	@Override
 	public void sendEmail(User user) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("İşlemi doğrulamak için 1 e basınız : ");
-		int verificationcode = scanner.nextInt();
+		System.out.print("İşlemi doğrulamak için şifrenizi tekrar giriniz : ");
+		long verificationcode = scanner.nextLong();
 		
-		if(verificationcode == 1) {
+		if(verificationcode == 123456) {
 			user.setVerification(true);
 		}else {
 			user.setVerification(false);
