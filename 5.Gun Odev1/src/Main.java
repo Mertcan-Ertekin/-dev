@@ -21,7 +21,6 @@ public class Main {
 
 		GoogleAuthAdapter google = new GoogleAuthAdapter();
 		google.loginGoogle("mrtcnertekin@gmail.com");
-
 	}
 
 }
